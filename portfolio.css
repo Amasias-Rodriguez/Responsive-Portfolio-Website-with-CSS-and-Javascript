@@ -163,6 +163,7 @@ header ul li:hover a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
     border: 2px solid #2e2f34;
     cursor: pointer;
 }
@@ -175,10 +176,16 @@ header ul li:hover a{
     max-width: 100px;
     filter: invert(1);
     opacity: 0.5;
+    transition: 0.5s;
 }
 
 #services .content .servicesBx:hover h3{
     color: #fff;
     font-weight: 500;
     color: #30fe6c;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
 }
